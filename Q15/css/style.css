@@ -1,0 +1,38 @@
+nav {
+    background-color: #fcf95e; 
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(84, 6, 129); 
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color:rgb(102, 60, 209); 
+    color: white; 
+}
+
+
+a.active {
+    background-color: rgb(102, 60, 209);
+    color: white;
+}
+
+span {
+    color: black; 
+}

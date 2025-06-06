@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align:left;
+    text-indent: 20px;
+    align: center;
+   
+}
+.box {
+    display: flex;
+
+   
+}
+
+.box1 {
+    border: 1px solid black;
+    padding-right:50px ;
+ 
+  
+}
+
+.box2 {
+    border: 1px solid black;
+    padding-right:50px ;
+}
+
+
+
+

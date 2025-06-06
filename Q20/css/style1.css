@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: rgb(48, 20, 175);
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+}
+
+#nav, #footer {
+    background-color: grey;
+    padding-bottom: 30px;
+   
+    color: black;
+}
+
+#left {
+    background-color: brown;
+    width: 25%;
+}
+
+#right {
+    background-color: rgb(136, 26, 233);
+    width: 20%;
+}
+
+.content {
+    float: left;
+    height: 500px;
+    color: black;
+}
+
+#main {
+    width: 55%;
+    background-color:rgb(6, 119, 206);
+}
+

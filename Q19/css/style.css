@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../images/sunset.webp") no-repeat center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    z-index:3;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    opacity: 80%;
+}
+
+
+.form-box {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.register, .login {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h3 {
+    color: rgb(31, 183, 244);
+    font-size: 18px;
+}
+
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 79);
+}
+input::placeholder {
+    color: #c9c9c9; }
+
+
+.gender {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.checkbox-inline {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #b38204;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #edb322;
+}

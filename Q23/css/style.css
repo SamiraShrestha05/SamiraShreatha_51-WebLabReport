@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+
+th {
+   
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+

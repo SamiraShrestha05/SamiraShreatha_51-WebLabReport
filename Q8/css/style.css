@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.map-image {
+    border: 2px solid #333;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+} 

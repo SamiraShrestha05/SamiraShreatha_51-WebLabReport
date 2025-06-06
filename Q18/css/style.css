@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    position: relative;
+    left: 278px;
+    color: red;
+}
+
+fieldset{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid black;
+}
+fieldset legend{
+    text-align: center;
+}
+
+div.form-group{
+    border-collapse: collapse;
+    padding: 10px 20px;
+}
+
+.form-group {
+    border: 1px solid rgb(186, 186, 186);
+    padding: 0px 0;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 100px;
+    display: inline-block;
+}
+
+.form-group input[type=radio],input[type=checkbox]{
+    width: 5%;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid orange;
+}
+
+.form-group input[type=radio],
+.form-group input[type=checkbox] {
+    width: auto;
+    margin-right: 5px;
+}
+.form-group input[type=file]{
+    border: none;
+}
+.form-group input[type=submit],input[type=reset]{
+    width: 70px;
+    border: none;
+    padding: 10px ;
+    color: white;
+}
+
+.success{
+    background-color: blue;
+}
+
+.danger{
+    background-color: rgb(208, 45, 23);   
+}
+
+.success:hover{
+    background-color: rgb(10, 121, 240);
+}
+.danger:hover{
+    background-color: rgb(255, 87, 57);
+}
+
+
+

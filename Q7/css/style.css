@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.faculty {
+    font-weight: bold;
+    font-size: 18px;
+    color: darkblue;
+}

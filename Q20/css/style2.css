@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+.header, .footer, .content1, .content2, .content3, .sidebar {
+    background-color: rgb(84, 247, 19);
+    color: black;
+    padding: 50px;
+    margin: 5px;
+    border: 1px solid black;
+   
+}
+
+.header, .footer{
+    padding: 30px;
+}
+
+.main {
+    display: flex;
+}
+.sidebar {
+    width: 10%;
+    padding: 10px;
+    padding-top: 130px;  
+}
+.content {
+    width: 90%;
+}
+
+.content2-3 {
+    display: flex;
+}
+.content2, .content3 {
+    width: 50%;
+}
