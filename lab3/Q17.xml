@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Q17.xsd">
+        <salesman>
+        <name title="Mr.">
+            <first>Ram</first>
+            <middle>Prasad</middle>
+            <last>Sharma</last>
+        </name>
+        <phone type="work">9801234567</phone>
+        <area>Kathmandu</area>
+        <records>
+            <record>
+                <product id="P001">
+                    <sku>SKU001</sku>
+                    <product_name>Laptop Model X</product_name>
+                </product>
+                <product id="P002">
+                    <sku>SKU002</sku>
+                    <product_name>Mouse Wireless</product_name>
+                </product>
+                <quantity>2</quantity>
+                <price currency="npr">125000.50</price>
+                <date type="ad">2023-01-15</date>
+            </record>
+            <record>
+                <product id="P003">
+                    <sku>SKU003</sku>
+                    <product_name>Printer LaserJet</product_name>
+                </product>
+                <quantity>1</quantity>
+                <price currency="inr">15000.00</price>
+                <date type="bs">2079-10-20</date>
+            </record>
+        </records>
+    </salesman>
+    <salesman>
+        <name title="Ms.">
+            <first>Sita</first>
+            <last>Devi</last>
+        </name>
+        <phone>9745678901</phone> 
+        <area>Pokhara</area>
+        <records>
+            <record>
+                <product id="P004">
+                    <sku>SKU004</sku>
+                    <product_name>Smartphone Z</product_name>
+                </product>
+                <quantity>3</quantity>
+                <price currency="usd">750.99</price>
+                <date type="ad">2023-02-28</date>
+            </record>
+        </records>
+    </salesman>
+</sales>

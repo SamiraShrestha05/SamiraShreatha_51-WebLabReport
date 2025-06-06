@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Q7.xsd">
+
+    <Movie id="movie1">
+        <title>The Grand Adventure</title>
+        <year>2023</year>
+        <_director name="Ava Director">A. Director</_director>
+        <comment lang="en">A truly epic and inspiring film.</comment>
+    </Movie>
+
+    <Movie id="movie2">
+        <title>Mystery of the Old House</title>
+        <year>2022</year>
+        <_director>B. Filmmaker</_director> 
+        <newcomment>Intriguing plot with a surprising twist!</newcomment>
+    </Movie>
+
+</movies>

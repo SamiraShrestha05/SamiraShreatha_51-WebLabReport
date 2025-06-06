@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE phoneNumbers SYSTEM "phoneNumbers_externel.dtd">
+<phoneNumbers>
+    <title>List of phoneNumbers</title>
+    <entries>
+      <entry>
+          <name>
+            <first>Rose</first>          
+            <last>Chaudhary</last>
+          </name>
+          <phone>9847694258</phone>
+          <city>KTM</city>
+      </entry>    
+    </entries>
+</phoneNumbers>

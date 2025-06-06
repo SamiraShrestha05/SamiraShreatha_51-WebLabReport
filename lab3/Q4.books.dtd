@@ -1,0 +1,22 @@
+<!ELEMENT books (book)>
+<!ELEMENT book (title, author+, pageNo, price)>
+<!ATTLIST book
+          ISBN ID #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (name, phone, email)>
+<!ATTLIST author
+          email CDATA #REQUIRED
+          name CDATA #REQUIRED
+          phone CDATA #REQUIRED>
+<!ELEMENT name (firstName, middleName, lastName)>
+<!ATTLIST name
+          title ( ms | mr | mrs) "ms">
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT middleName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT pageNo (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+          currency ( NPR | INR | USD) #REQUIRED>

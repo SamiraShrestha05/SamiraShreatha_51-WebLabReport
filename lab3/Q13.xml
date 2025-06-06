@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Q13.xsd"> 
+    <Patient patientNo="10001">
+        <Name>
+            <FirstName>Ram</FirstName>
+            <MiddleName>Singh</MiddleName>
+            <LastName>Saud</LastName>
+        </Name>
+        <DoctorName>Dr. Bhoj Joshi</DoctorName>
+        <Diseases>
+            <Disease>Migraine</Disease>
+            <Disease>Insomnia</Disease>
+            <Disease>Anxiety</Disease>
+        </Diseases>
+        <ConsultationCharge>2500</ConsultationCharge>
+        <LabTests>
+            <Test>MRI Brain</Test>
+            <Test>Stress Test</Test>
+        </LabTests>
+    </Patient>
+
+</Hospital>

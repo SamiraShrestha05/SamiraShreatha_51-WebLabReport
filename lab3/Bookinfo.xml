@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookinfo SYSTEM "file:///D:/WebTech/xml/Bookinfo.dtd">
+<bookinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Bookinfo.xsd">
+    <book>
+        <title></title>
+        <author></author>
+        <ISBNno></ISBNno>
+        <publishername></publishername>
+        <edition></edition>
+        <price></price>
+    </book>
+</bookinfo>

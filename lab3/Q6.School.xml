@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Schools xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Q6.xsd">
+ <School schoolId="SCH001">
+        <Name>School of Engineering</Name>
+        <Location>Main Campus, Building A</Location>
+        <StaffCollection>
+            <Staff staffId="ENGSTAFF001">
+                <StaffName>Dr. Jane Doe</StaffName>
+                <Title>Head of Department</Title>
+                <Category>academic</Category>
+                <Address>
+                    <Street>10 Engineering Way</Street>
+                    <Suburb>Tech City</Suburb>
+                    <Postcode>12345</Postcode>
+                </Address>
+                <Address>
+                    <Street>55 Research Blvd</Street>
+                    <Suburb>Innovation Park</Suburb>
+                    <Postcode>54321</Postcode>
+                </Address>
+            </Staff>
+            <Staff staffId="ENGSTAFF002">
+                <StaffName>Mr. John Smith</StaffName>
+                <Category>technical</Category>
+                <Address>
+                    <Street>20 Lab Lane</Street>
+                    <Suburb>Science Town</Suburb>
+                    <Postcode>67890</Postcode>
+                </Address>
+            </Staff>
+            <Staff staffId="ENGSTAFF003">
+                <StaffName>Ms. Emily White</StaffName>
+                <Title>Administrative Assistant</Title>
+                <Category>general</Category>
+                <Address>
+                    <Street>30 Admin Street</Street>
+                    <Suburb>Campus Village</Suburb>
+                    <Postcode>09876</Postcode>
+                </Address>
+            </Staff>
+        </StaffCollection>
+        <SubjectCollection>
+            <Subject subjectCode="ENGR101">
+                <Name>Introduction to Engineering</Name>
+                <Description>A foundational course for all engineering disciplines.</Description>
+                <Capacity>150</Capacity>
+                <TaughtByStaffId>ENGSTAFF001</TaughtByStaffId>
+            </Subject>
+            <Subject subjectCode="ENGR205">
+                <Name>Applied Robotics</Name>
+                <Description>Hands-on course in robotics and automation.</Description>
+                <Capacity>30</Capacity>
+                <TaughtByStaffId>ENGSTAFF002</TaughtByStaffId>
+            </Subject>
+            <Subject subjectCode="ENGR400">
+                <Name>Advanced Thermodynamics</Name>
+                <Description>In-depth study of thermodynamic principles.</Description>
+                <Capacity>20</Capacity>
+                <TaughtByStaffId>ENGSTAFF001</TaughtByStaffId>
+            </Subject>
+        </SubjectCollection>
+    </School>
+
+    <School schoolId="SCH002">
+        <Name>School of Arts and Humanities</Name>
+        <Location>North Campus, Arts Building</Location>
+        <StaffCollection>
+            <Staff staffId="ARTSTAFF001">
+                <StaffName>Prof. Robert Green</StaffName>
+                <Title>Professor</Title>
+                <Category>academic</Category>
+                <Address>
+                    <Street>40 Culture Road</Street>
+                    <Suburb>Art District</Suburb>
+                    <Postcode>11223</Postcode>
+                </Address>
+            </Staff>
+            <Staff staffId="ARTSTAFF002">
+                <StaffName>Ms. Sarah Blue</StaffName>
+                <Category>general</Category>
+                <Address>
+                    <Street>50 Liberal Ave</Street>
+                    <Suburb>Humanities Heights</Suburb>
+                    <Postcode>33445</Postcode>
+                </Address>
+            </Staff>
+        </StaffCollection>
+        <SubjectCollection>
+            <Subject subjectCode="HIST101">
+                <Name>World History I</Name>
+                <Description>Survey of global history from ancient times to 1500.</Description>
+                <Capacity>200</Capacity>
+                <TaughtByStaffId>ARTSTAFF001</TaughtByStaffId>
+            </Subject>
+            <Subject subjectCode="LIT203">
+                <Name>Modern Literature</Name>
+                <Description>Analysis of 20th-century literary movements.</Description>
+                <Capacity>45</Capacity>
+                <TaughtByStaffId>ARTSTAFF001</TaughtByStaffId>
+            </Subject>
+        </SubjectCollection>
+    </School>
+
+</Schools>

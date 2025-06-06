@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<songinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Q3.songs.xsd">
+<song>
+    <name>Die with a Smile</name>
+    <singer>Bruno Mars</singer>
+    <composeby>D'Mile</composeby>
+    <length>5</length>
+  </song>
+</songinfo>

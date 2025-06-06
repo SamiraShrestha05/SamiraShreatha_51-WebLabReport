@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q10.xsl"?>
+<book_list>
+    <book>
+        <title>Web Programming</title>
+        <author>Basanta Chapagain</author>
+        <publisher>KEC</publisher>
+        <edition>1</edition>
+        <price>395</price>
+    </book>
+    <book>
+        <title>Java</title>
+        <author>Bhoj Raj Joshi</author>
+        <publisher>KEC</publisher>
+        <edition>1</edition>
+        <price>450</price>
+    </book>
+</book_list>

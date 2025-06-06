@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "file:///D:/WebTech/xml/Q4.books.dtd">
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Q4.book.xsd">
+  <book ISBN="">
+    <title></title>
+    <author name="Robert Galbraith" phone="2071234567" email="info@jkrowling.com">
+      <name title="ms">
+        <firstName>Joanne</firstName>
+        <middleName>Kathleen</middleName>
+        <lastName>Rowling</lastName>
+      </name>
+      <phone>2071234567</phone>
+      <email>info@jkrowling.com</email>
+      </author>
+    <pageNo>223</pageNo>
+    <price>600</price>
+  </book>
+</books>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Q5.final.xsd"> 
+  <Student rollNo="S001">
+        <Name>
+            <FirstName>Alice</FirstName>
+            <MiddleName>Marie</MiddleName>
+            <LastName>Smith</LastName>
+        </Name>
+        <Email>alice.smith@example.com</Email>
+        <Phone>9812345678</Phone>
+        <Address type="permanent">123 Main St, Cityville</Address>
+        <Address type="temporary">456 Oak Ave, Townsville</Address>
+        <DOB type="AD">2000-01-15</DOB>
+    </Student>
+
+    <Student rollNo="S002">
+        <Name>
+            <FirstName>Bob</FirstName>
+            <LastName>Johnson</LastName>
+        </Name>
+        <Email>bob.j@mail.org</Email>
+        <Phone>9787654321</Phone>
+        <Address type="permanent">789 Pine Ln, Villageton</Address>
+        <DOB type="BS">2057-04-22</DOB>
+    </Student>
+
+    <Student rollNo="S003">
+        <Name>
+            <FirstName>Charlie</FirstName>
+            <LastName>Brown</LastName>
+        </Name>
+        <Email>charlie@web.co.uk</Email>
+        <Phone>9800112233</Phone>
+        <Address type="permanent">101 Elm St, Metropolis</Address>
+        <DOB type="AD">1999-11-30</DOB>
+    </Student>
+
+</Students>

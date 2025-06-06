@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TU xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Q15.xsd"> 
+    <Employee>
+        <Post>Staff</Post>
+        <Salary>25000</Salary>
+        <Gender>female</Gender>
+        <UserName>JohnDoe123</UserName>
+        <Password>John123@</Password>
+    </Employee>
+    <Employee>
+        <Post>Clerk</Post>
+        <Salary>27500</Salary>
+        <Gender>others</Gender>
+        <UserName>UserClerk</UserName>
+        <Password>Clerk@77</Password>
+    </Employee>
+    <Employee>
+        <Post>Admin</Post>
+        <Salary>50000</Salary>
+        <Gender>male</Gender>
+        <UserName>AdminUser</UserName>
+        <Password>Admin@11</Password>
+    </Employee>
+</TU>

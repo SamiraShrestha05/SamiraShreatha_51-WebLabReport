@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/WebTech/xml/employee.xsl"?>
+<class>
+  <employee id="001">
+    <firstname>Aryan</firstname>
+    <lastname>Gupta</lastname>
+    <nickname>Raju</nickname>
+    <age>50</age>
+    <salary>30000</salary>
+  </employee>
+  <employee id="024">
+    <firstname>Sara</firstname>
+    <lastname>Khan</lastname>
+    <nickname>Zoya</nickname>
+    <age>30</age>
+    <salary>25000</salary>
+  </employee>
+  <employee id="056">
+    <firstname>Peter</firstname>
+    <lastname>Symon</lastname>
+    <nickname>John</nickname>
+    <age>25</age>
+    <salary>10000</salary>
+  </employee>
+</class>

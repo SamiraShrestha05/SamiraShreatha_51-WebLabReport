@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q9.xsl"?>
+<content>
+    <main_title>Hello Everyone! Welcome to XML to CSS</main_title>
+    <sections>
+        <section>
+            <heading>Algo</heading>
+            <items>
+                <item>Greedy Algo</item>
+                <item>Randomised Algo</item>
+                <item>Searching Algo</item>
+                <item>Sorting Algo</item>
+            </items>
+        </section>
+        <section>
+            <heading>Data Structures</heading>
+            <items>
+                <item>Array</item>
+                <item>Stack</item>
+                <item>Queue</item>
+                <item>Linked List</item>
+            </items>
+        </section>
+        <section>
+            <heading>Web Technology</heading>
+            <items>
+                <item>HTML</item>
+                <item>CSS</item>
+                <item>Java Script</item>
+                <item>Php</item>
+            </items>
+        </section>
+        <section>
+            <heading>Languages</heading>
+            <items>
+                <item>C/C++</item>
+                <item>Java</item>
+                <item>Python</item>
+                <item>Ruby</item>
+            </items>
+        </section>
+        <section>
+            <heading>DBMS</heading>
+            <items>
+                <item>Basics</item>
+                <item>ER Diagram</item>
+                <item>Normalization</item>
+                <item>Transaction Concepts</item>
+            </items>
+        </section>
+    </sections>
+</content>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Q16.xsl"?>
+<products>
+    <product>
+        <productname>Laptop Pro</productname>
+        <category>Electronics</category>
+        <price>1200.00</price>
+        <quantity>15</quantity>
+    </product>
+    <product>
+        <productname>Desk Chair Ergonomic</productname>
+        <category>Office Furniture</category>
+        <price>250.00</price>
+        <quantity>8</quantity> </product>
+    <product>
+        <productname>Smartphone X</productname>
+        <category>Electronics</category>
+        <price>800.00</price>
+        <quantity>20</quantity>
+    </product>
+    <product>
+        <productname>Gaming Keyboard</productname>
+        <category>Electronics</category>
+        <price>150.00</price>
+        <quantity>12</quantity>
+    </product>
+    <product>
+        <productname>Office Desk Large</productname>
+        <category>Office Furniture</category>
+        <price>400.00</price>
+        <quantity>10</quantity>
+    </product>
+    <product>
+        <productname>Monitor UltraWide</productname>
+        <category>Electronics</category>
+        <price>600.00</price>
+        <quantity>5</quantity> </product>
+    <product>
+        <productname>Printer Laser</productname>
+        <category>Office Equipment</category>
+        <price>300.00</price>
+        <quantity>11</quantity>
+    </product>
+</products>

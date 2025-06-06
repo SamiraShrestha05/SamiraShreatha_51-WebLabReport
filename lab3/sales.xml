@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE sales SYSTEM "sales.dtd">
+<sales>
+    <salesman>  
+        <name title="mr">
+            <first>Ram</first>
+            <middle>Kumar</middle>
+            <last>Thapa</last>
+        </name>
+        <phone type="personal">987878787</phone>
+        <phone type="work">98333333</phone>
+        <area>Kalanki</area>
+        <records>   
+            <record>
+                <product productid="p98">
+                    <sku>9877788</sku>
+                    <product_name>test</product_name>
+                </product>
+                <quantity>76</quantity>
+                <price currency="npr">877</price>
+                <date type="ad">2025-02-14</date>
+            </record>
+            <record>
+                <product productid="p98">
+                    <sku>876</sku>
+                    <product_name>Pencil</product_name>
+                </product>
+                <quantity>987</quantity>
+                <price currency="npr">34</price>
+                <date type="ad">2025-03-14</date>
+            </record>
+        </records>
+    </salesman>
+ <salesman>  
+        <name title="mr">
+            <first>Hari</first>
+            <last>Khatri</last>
+        </name>
+        <phone type="personal">7666666</phone>
+        <phone type="work">9833223333</phone>
+        <area>Kalanki</area>
+        <records>   
+            <record>
+                <product productid="p76">
+                    <sku>878787</sku>
+                    <product_name>Laptop</product_name>
+                </product>
+                <quantity>76000</quantity>
+                <price currency="npr">34</price>
+                <date type="ad">2025-02-24</date>
+            </record>
+        </records>
+    </salesman>
+</sales>

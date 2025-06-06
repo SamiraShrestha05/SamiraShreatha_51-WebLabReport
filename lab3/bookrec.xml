@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bookrec>
+  <title att="ms"></title>
+  <author></author>
+    <name></name>
+      <firstname></firstname>
+      <middlename></middlename>
+      <lastname></lastname>
+    <phone></phone>
+    <email></email>
+  <ISBNno></ISBNno>
+  <pageno></pageno>
+  <price currency="NPR"></price>
+</bookrec>

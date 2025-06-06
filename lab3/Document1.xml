@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<bookinfo>
+    <book book_id="web">
+        <title>Web Tech</title>
+        <author title="award">
+            <firstname>Basanta</firstname>
+            <middlename></middlename>
+            <lastname>Chapagain</lastname>
+        </author>        
+        <author>
+            <firstname>Sapana</firstname>
+            <middlename></middlename>
+            <lastname>Pokharel</lastname>
+        </author>
+        <ISBNno>1570</ISBNno>
+        <publishername>Fireren</publishername>
+        <edition>1st Edition</edition>
+        <price currency="dollar">120.00</price>
+    </book>
+</bookinfo>
