@@ -1,5 +1,5 @@
 <?php
-session_start(); // Start the session
+session_start();
 
 if (isset($_SESSION["username"]) && isset($_SESSION["email"])) {
     echo "Username: " . $_SESSION["username"] . "<br>";
@@ -8,5 +8,5 @@ if (isset($_SESSION["username"]) && isset($_SESSION["email"])) {
     echo "No session data found.<br>";
 }
 
-echo "<a href='session_destroy.php'>Click here to destroy session</a>";
+echo "<a href='q4session_destroy.php'>Click here to destroy session</a>";
 ?>
