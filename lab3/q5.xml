@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="q5.xsd">
+
+    <Student rollno="101">
+        <Name>
+            <FirstName>Shreya</FirstName>
+            <MiddleName>R</MiddleName>
+            <LastName>Thapa</LastName>
+        </Name>
+        <Email>shreya.thapa@example.com</Email>
+        <Phone>9812345678</Phone>
+        <Address type="permanent">Kathmandu, Nepal</Address>
+        <Address type="temporary">Lalitpur, Nepal</Address>
+        <DOB type="AD">2000-12-15</DOB>
+    </Student>
+
+    <Student rollno="102">
+        <Name>
+            <FirstName>Ravi</FirstName>
+            <LastName>Sharma</LastName>
+        </Name>
+        <Email>ravi.sharma@example.com</Email>
+        <Phone>9711122233</Phone>
+        <Address type="permanent">Pokhara, Nepal</Address>
+        <DOB type="BS">2057-05-01</DOB>
+    </Student>
+
+</Students>

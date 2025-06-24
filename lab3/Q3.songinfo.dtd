@@ -1,6 +1,0 @@
-<!ELEMENT songinfo (song+)>
-<!ELEMENT song (name, singer+, composeby, length)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT singer (#PCDATA)>
-<!ELEMENT composeby (#PCDATA)>
-<!ELEMENT length (#PCDATA)>

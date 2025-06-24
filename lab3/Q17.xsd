@@ -4,9 +4,9 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="salesman" maxOccurs="unbounded">
-                  <xs:complexType>
-                      <xs:sequence>
-                          <xs:element name="name">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name">
                             <xs:complexType>
                                 <xs:sequence>
                                     <xs:element name="first" type="xs:string"/>
@@ -16,10 +16,10 @@
                                 <xs:attribute name="title" type="xs:string" use="required"/>
                             </xs:complexType>
                         </xs:element>
-                          <xs:element name="phone" type="PhoneType"/>
-                          <xs:element name="area" type="xs:string"/>
-                          <xs:element name="records" type="RecordsType"/>
-                      </xs:sequence>
+                        <xs:element name="phone" type="PhoneType"/>
+                        <xs:element name="area" type="xs:string"/>
+                        <xs:element name="records" type="RecordsType"/>
+                    </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
@@ -48,14 +48,14 @@
     <xs:complexType name="RecordType">
         <xs:sequence>
             <xs:element name="product" maxOccurs="unbounded">
-              <xs:complexType>
-                  <xs:sequence>
-                      <xs:element name="sku" type="xs:string"/>
-                      <xs:element name="product_name" type="xs:string"/>
-                  </xs:sequence>
-                  <xs:attribute name="id" type="xs:ID" use="required"/> 
+                <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="sku" type="xs:string"/>
+                    <xs:element name="product_name" type="xs:string"/>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:ID" use="required"/> 
                 </xs:complexType>
-          </xs:element>
+            </xs:element>
             <xs:element name="quantity" type="xs:positiveInteger"/> 
             <xs:element name="price" type="PriceType"/>
             <xs:element name="date" type="DateType"/>
@@ -79,7 +79,7 @@
     <xs:complexType name="DateType">
         <xs:simpleContent>
             <xs:extension base="xs:string">
-             <xs:attribute name="type" use="required">
+                <xs:attribute name="type" use="required">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="ad"/>

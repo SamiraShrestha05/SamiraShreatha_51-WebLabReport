@@ -15,15 +15,15 @@
                         font-weight: bold;
                     }
                     table {
-                        width: auto; /* Allow table to size based on content */
+                        width: auto; 
                     }
                     th, td {
-                        padding: 8px 15px; /* Padding inside cells */
+                        padding: 8px 15px;
                         text-align: left;
                     }
                     th {
                         font-weight: bold;
-                        text-align: center; /* Center header text */
+                        text-align: center;
                     }
                 </style>
             </head>

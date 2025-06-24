@@ -1,18 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/WebTech/xml/Q7.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="q7.xsd">
 
-    <Movie id="movie1">
-        <title>The Grand Adventure</title>
-        <year>2023</year>
-        <_director name="Ava Director">A. Director</_director>
-        <comment lang="en">A truly epic and inspiring film.</comment>
+    <Movie id="M001">
+        <title>Inception</title>
+        <year>2010</year>
+        <_director name="Christopher Nolan">Christopher Nolan</_director>
+        <comment lang="en">Mind-bending sci-fi thriller.</comment>
+        <newcomment>Absolutely amazing visuals.</newcomment>
     </Movie>
 
-    <Movie id="movie2">
-        <title>Mystery of the Old House</title>
-        <year>2022</year>
-        <_director>B. Filmmaker</_director> 
-        <newcomment>Intriguing plot with a surprising twist!</newcomment>
+    <Movie id="M002">
+        <title>The Matrix</title>
+        <year>1999</year>
+        <_director name="Lana Wachowski">The Wachowskis</_director>
+        <newcomment>Classic cyberpunk film.</newcomment>
+        <comment>Changed action movies forever.</comment>
     </Movie>
 
 </movies>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "q2.dtd">
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="q2.xsd">
+    <Book>
+        <Title>Learning XML</Title>
+        <Author>Jane Smith</Author>
+        <ISBN>978-0-12345-678-9</ISBN>
+        <Publisher>Open Tech Publishers</Publisher>
+        <Edition>3rd</Edition>
+        <Price>49.99</Price>
+    </Book>
+</Library>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="q12.xsl"?>
+<book_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="q12.xsd">
+    <book>
+        <title>TCP/IP Illustrated</title>
+        <author>Stevens</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley</publisher>
+        <price>65.95</price>
+    </book>
+    <book>
+        <title>Principles of Databases</title>
+        <author>Abiteboul</author>
+        <year>1994</year>
+        <publisher>Addison-Wesley</publisher>
+        <price>35.89</price>
+    </book>
+    <book>
+        <title>Advanced Programming in the Unix environment</title>
+        <author>Stevens</author>
+        <year>1992</year>
+        <publisher>Addison-Wesley</publisher>
+        <price>65.95</price>
+    </book>
+    <book>
+        <title>Data on the Web</title>
+        <author>Abiteboul, Buneman, Suciu</author>
+        <year>2000</year>
+        <publisher>Morgan Kaufmann Publishers</publisher>
+        <price>39.95</price>
+    </book>
+    <book>
+        <title>The Economics of Technology and Content for Digital TV</title>
+        <author>Buneman</author>
+        <editor>Gerbarg</editor>
+        <year>1992</year>
+        <publisher>Kluwer Academic Publishers</publisher>
+        <price>129.95</price>
+    </book>
+</book_list>

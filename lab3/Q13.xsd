@@ -41,14 +41,16 @@
         <xs:attribute name="patientNo" use="required">
             <xs:simpleType>
                 <xs:restriction base="xs:string">
-                    <xs:pattern value="\d{5}"/> </xs:restriction>
+                    <xs:pattern value="\d{5}"/>
+                </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
     </xs:complexType>
     <xs:complexType name="NameType">
         <xs:sequence>
             <xs:element name="FirstName" type="xs:string"/>
-            <xs:element name="MiddleName" type="xs:string" minOccurs="0"/> <xs:element name="LastName" type="xs:string"/>
+            <xs:element name="MiddleName" type="xs:string" minOccurs="0"/> 
+            <xs:element name="LastName" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
 </xs:schema>

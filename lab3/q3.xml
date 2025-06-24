@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Songs>
+    <Song>
+        <Name>Shape of You</Name>
+        <Singer>Ed Sheeran</Singer>
+        <ComposedBy>Ed Sheeran</ComposedBy>
+        <Length>3:53</Length>
+    </Song>
+    <Song>
+        <Name>Blinding Lights</Name>
+        <Singer>The Weeknd</Singer>
+        <ComposedBy>Abel Tesfaye</ComposedBy>
+        <Length>3:20</Length>
+    </Song>
+    <Song>
+        <Name>Levitating</Name>
+        <Singer>Dua Lipa</Singer>
+        <ComposedBy>Stephen Kozmeniuk</ComposedBy>
+        <Length>3:23</Length>
+    </Song>
+    <Song>
+        <Name>Perfect</Name>
+        <Singer>Ed Sheeran</Singer>
+        <ComposedBy>Ed Sheeran</ComposedBy>
+        <Length>4:40</Length>
+    </Song>
+</Songs>

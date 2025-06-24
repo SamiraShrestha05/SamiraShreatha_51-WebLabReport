@@ -1,9 +1,0 @@
-<!ELEMENT students (student+)>
-<!ATTLIST student id CDATA #REQUIRED>
-<!ELEMENT student (name, phone, college, program, duration)>
-<!ELEMENT name (first, middle, last)>
-<!ATTLIST name title>
-<!ELEMENT first (#PCDATA)>
-<!ELEMENT middle (#PCDATA)>
-<!ELEMENT last (#PCDATA)>
-<!ATTLIST

@@ -27,6 +27,7 @@
                     th {
                         background-color: blue; 
                         font-weight: bold;
+                        color: white;
                     }
                 </style>
             </head>

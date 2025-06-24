@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="q4.xsd">
+
+    <Book ISBN="978-1-23456-789-0">
+        <Title>Learning XML</Title>
+        <PageNo>350</PageNo>
+        <Price currency="USD">45.99</Price>
+        <Author title="mr">
+            <Name>
+                <FirstName>John</FirstName>
+                <MiddleName>Andrew</MiddleName>
+                <LastName>Doe</LastName>
+            </Name>
+            <Phone>1234567890</Phone>
+            <Email>john@example.com</Email>
+        </Author>
+        <Author>
+            <Name>
+                <FirstName>Jane</FirstName>
+                <MiddleName>Marie</MiddleName>
+                <LastName>Smith</LastName>
+            </Name>
+            <Phone>9876543210</Phone>
+            <Email>jane@example.com</Email>
+        </Author>
+    </Book>
+
+</Library>

@@ -11,7 +11,8 @@
         <productname>Desk Chair Ergonomic</productname>
         <category>Office Furniture</category>
         <price>250.00</price>
-        <quantity>8</quantity> </product>
+        <quantity>8</quantity>
+        </product>
     <product>
         <productname>Smartphone X</productname>
         <category>Electronics</category>
@@ -34,7 +35,8 @@
         <productname>Monitor UltraWide</productname>
         <category>Electronics</category>
         <price>600.00</price>
-        <quantity>5</quantity> </product>
+        <quantity>5</quantity> 
+    </product>
     <product>
         <productname>Printer Laser</productname>
         <category>Office Equipment</category>

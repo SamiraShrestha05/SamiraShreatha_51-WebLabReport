@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<University xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="q6.xsd">
+
+    <School schoolID="SCH001">
+        <Name>School of Information Technology</Name>
+        <Location>Kathmandu</Location>
+
+        <Staff staffID="ST001" category="academic">
+            <Name>Alina Thapa</Name>
+            <Title>Professor</Title>
+            <Address>
+                <Street>Ring Road</Street>
+                <Suburb>Kirtipur</Suburb>
+                <Postcode>44600</Postcode>
+            </Address>
+        </Staff>
+
+        <Staff staffID="ST002" category="technical">
+            <Name>Rabin Shrestha</Name>
+            <Title></Title>
+            <Address>
+                <Street>Balkhu Road</Street>
+                <Suburb>Kathmandu</Suburb>
+                <Postcode>44611</Postcode>
+            </Address>
+            <Address>
+                <Street>New Baneshwor</Street>
+                <Suburb>Kathmandu</Suburb>
+                <Postcode>44600</Postcode>
+            </Address>
+        </Staff>
+
+        <Subjects>
+            <Subject subjectCode="CS101">
+                <Name>Introduction to Programming</Name>
+                <Description>Learn basic programming concepts using Python.</Description>
+                <Capacity>150</Capacity>
+                <TaughtBy staffID="ST001"/>
+            </Subject>
+
+            <Subject subjectCode="CS102">
+                <Name>Database Systems</Name>
+                <Description>Understanding relational databases and SQL.</Description>
+                <Capacity>60</Capacity>
+                <TaughtBy staffID="ST002"/>
+            </Subject>
+        </Subjects>
+    </School>
+
+</University>
